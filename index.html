@@ -24,18 +24,21 @@
     /* Pembungkus utama agar tampilan terpusat */
     .canva-wrapper {
       width: 100%;
-      max-width: 1920px; /* Lebar maksimal tampilan di desktop */
+      max-width: 900px; /* Lebar maksimal tampilan di desktop */
       padding: 0 16px;
     }
 
     /* Kontainer iframe yang bisa di-scroll */
-   .canva-container {
-  width: 100%;
-  /* Atur rasio aspek tinggi sesuai jumlah halaman Canva Anda, misal 200vh atau 300vh */
-  min-height: 250vh; 
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
+    .canva-container {
+      position: relative;
+      width: 100%;
+      /* Atur tinggi kontainer iframe, misal 85% dari tinggi layar */
+      height: 85vh; 
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      background: #fff;
+    }
 
     /* Iframe Canva */
     .canva-container iframe {
@@ -49,14 +52,16 @@
 
   <div class="canva-wrapper">
     <div class="canva-container">
-     <div style="position: relative; width: 100%; height: 0; padding-top: 88.8889%;
+     
+<div style="position: relative; width: 100%; height: 0; padding-top: 260.4167%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">
   <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAHQwCwTjU4/s9ObSOAtdf7YYmW0pzLYpA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+    src="https://www.canva.com/design/DAHQwHblj2U/SoRi8fMwhR4PgypL9j4nDA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHQwCwTjU4&#x2F;s9ObSOAtdf7YYmW0pzLYpA&#x2F;view?utm_content=DAHQwCwTjU4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHQwHblj2U&#x2F;SoRi8fMwhR4PgypL9j4nDA&#x2F;view?utm_content=DAHQwHblj2U&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Salinan dari Home (1920 x 5000 piksel)</a> oleh agent baron
+      
       <iframe 
         src="https://www.canva.com/design/DAGXXXXXX/watch?embed" 
         allowfullscreen="allowfullscreen" 
