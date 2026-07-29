@@ -29,16 +29,13 @@
     }
 
     /* Kontainer iframe yang bisa di-scroll */
-    .canva-container {
-      position: relative;
-      width: 100%;
-      /* Atur tinggi kontainer iframe, misal 85% dari tinggi layar */
-      height: 85vh; 
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-      background: #fff;
-    }
+   .canva-container {
+  width: 100%;
+  /* Atur rasio aspek tinggi sesuai jumlah halaman Canva Anda, misal 200vh atau 300vh */
+  min-height: 250vh; 
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
 
     /* Iframe Canva */
     .canva-container iframe {
